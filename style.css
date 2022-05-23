@@ -1,0 +1,106 @@
+.titulo {
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo h1 {
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(27, 102, 102)
+}
+
+p {
+    color: black;
+    text-align: justify;
+    margin: 30px;
+    font-size: 20px;
+}
+
+h4 {
+    text-align: center;
+    color: rgb(27, 102, 102);
+    padding: 10px;
+}
+
+h5 {
+    text-align: center;
+    color: blue;
+}
+
+.mickey {
+    max-width: 20%;
+    margin: 20px;
+}
+
+a {
+    background-color: rgb(221, 22, 22);
+    font-style: italic;
+    border-radius: 20px;
+    width: 20vh;
+    color: #fff;
+    font-size: larger;
+    font: 300;
+    text-decoration: none;
+    padding: 10px 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+a:hover {
+    background-color: rgb(27, 102, 102);
+    color: #fff;
+    font-size: large;
+    transition: 300ms;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 5px;
+    gap: 10px
+}
+
+.fotos img:hover {
+    cursor: pointer;
+    width: 60vh;
+}
+
+.footer {
+    background-color: rgb(27, 102, 102);
+    height: 10vh;
+}
+
+.footer p {
+    font-size: 17px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media (max-width:780px) {
+    .fotos img {
+        width: 35vh
+    }
+}
+
+@media (max-width:480px) {
+    .fotos img {
+        width: 35vh
+    }
+}
