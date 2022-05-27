@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(207, 220, 236)
+}
+
 .titulo {
     display: flex;
     padding: 30px;
@@ -73,7 +77,8 @@ a:hover {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 5px;
-    gap: 10px
+    gap: 10px;
+    margin-bottom: 15px;
 }
 
 .fotos img:hover {
